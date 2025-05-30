@@ -1,0 +1,39 @@
+/* Styles for the WordForm component */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: flex-start;
+    margin-bottom: 24px;
+}
+
+.checkboxLabel {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.label {
+    min-width: 140px;
+    margin-right: 12px;
+    font-weight: 500;
+}
+
+.componentBox,
+.meaningBox {
+    border: 1px solid #ccc;
+    margin: 4px 0;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.addButton,
+.removeButton {
+    margin-left: 8px;
+}

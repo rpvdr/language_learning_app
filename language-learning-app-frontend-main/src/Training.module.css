@@ -1,0 +1,17 @@
+/* Training.module.css */
+.root {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: flex-start;
+}
+
+.rootInputRow {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+}
+
+.ratingBlock {
+    margin: 1em 0;
+}
