@@ -1,3 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+dist/
+build/
+*.egg-info/
+
+# Node.js / TypeScript / React
+node_modules/
+dist/
+build/
+.env
+*.log
+
+# VSCode settings
+.vscode/
+
+# PostgreSQL (наприклад, якщо ти дампи зберігаєш)
+*.sql
+*.dump
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
